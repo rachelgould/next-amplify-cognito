@@ -4,7 +4,7 @@
 
 Then, edit `next.config.js.example` and remove the `.example`.
 
-First, run the development server:
+Then, run the development server:
 
 ```bash
 npm run dev
