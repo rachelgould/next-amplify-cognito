@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import FancyComponent from '../components/FancyComponent';
 
 const Home = () => (
   <div className="container">
@@ -16,7 +17,9 @@ const Home = () => (
         Get started by editing <code>pages/index.js</code>
       </p>
 
-      <div className="grid">
+      <FancyComponent />
+
+      {/* <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
           <h3>Documentation &rarr;</h3>
           <p>Find in-depth information about Next.js features and API.</p>
@@ -44,7 +47,7 @@ const Home = () => (
             Instantly deploy your Next.js site to a public URL with ZEIT Now.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
 
     <footer>
